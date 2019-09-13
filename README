@@ -1,0 +1,10 @@
+Language: java
+Version: java 9.0.4
+You can run router and NSE on linux.student.cs.uwaterloo.ca environment
+in two separate machines.
+
+Note:
+ 1. use "java router <router_id> <nse_host> <nse_port> <router_port>" command to run router
+ 2. use "./nselinux386 <arg1> <arg2> ..." command to run network emulator.
+ 3. all routers are run under the same host but different port#
+ Arguments used above are the same as it explained in assignment instruction.
